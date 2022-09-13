@@ -185,6 +185,12 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+
+Clock Idea: 
+* Older people with Cognitive Deficits often feel disoriented and do not know what activity they should be doing at a particular time of the day.
+* To enable a routine for them, I am using this Clock to tell them what activity they should be doing.
+* Each of these activites in the diagram below are displayed only during that particular time of the day.
+
 ![Untitled (10)](https://user-images.githubusercontent.com/66789469/189803964-54ecee47-11b1-4152-950d-60f8184868f2.jpg)
 
 
