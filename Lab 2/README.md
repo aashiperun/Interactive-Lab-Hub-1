@@ -257,7 +257,7 @@ Runze Zhang
 Hongjiao Zhang
 1. Provide greetings every time they wake up
 
-New Features added to the Clock:
+## New Features added to the Clock:
 1) Check In Feature
 Using the Upper Button on the MiniPiTFT, the patient can check in to say that they have taken their medicine for the day.
 <img width="309" alt="CheckIn" src="https://user-images.githubusercontent.com/66789469/191221199-d998edcb-ad91-4562-b4f2-9708a6962768.png">
