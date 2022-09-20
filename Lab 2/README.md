@@ -248,6 +248,7 @@ As always, make sure you document contributions and ideas from others explicitly
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 ## Feedback:
+
 Runze Zhang
 1. Add a Check in feature after taking their medicines.
 2. Add text on the display to demonstrate if they have checked in.
@@ -265,5 +266,6 @@ Using the Upper Button on the MiniPiTFT, the patient can check in to say that th
 Using the Lower Button on the MiniPiTFT, the patient can record the missed dosage in case they realize later in the day or it will be automatically recorded in case a check in is not entered for the day. 
 <img width="300" alt="MissedDose" src="https://user-images.githubusercontent.com/66789469/191221248-d073e50e-a9b2-4651-b472-6a2373489d82.png">
 
-##Final Prototype of my Clock Interface for Older Adults with Cognitive Deficits
+## Final Prototype of my Clock Interface for Older Adults with Cognitive Deficits
+
 https://drive.google.com/file/d/1tsqrn4m-WuZadbGh3vPAdp0hmHteRRy1/view?usp=sharing
