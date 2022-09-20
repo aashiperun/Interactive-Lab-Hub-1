@@ -219,6 +219,15 @@ https://drive.google.com/file/d/1tWrphGO-lBVoznz-_zlHIvhVQaREe7ct/view?usp=shari
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+* To regulate medicine intake, I am going to associate colors with each day of the week.
+* Each of these colors represent the corresponding compartment on the medicine box
+<img width="301" alt="Monday" src="https://user-images.githubusercontent.com/66789469/191223012-a3318d66-8e59-4269-8e58-67c860d4721f.png">
+<img width="301" alt="Tuesday" src="https://user-images.githubusercontent.com/66789469/191223072-f5ea45c3-20df-4d0a-93a9-674752eabbbf.png">
+<img width="300" alt="Wednesday" src="https://user-images.githubusercontent.com/66789469/191223114-ce3f03c4-bde8-42af-b17a-8eddca0ca1a3.png">
+<img width="301" alt="Thursday" src="https://user-images.githubusercontent.com/66789469/191223146-d0335be4-c74f-41d0-ba3c-c9cca345d651.png">
+<img width="301" alt="Friday" src="https://user-images.githubusercontent.com/66789469/191223169-6d3c0cc0-a95c-455d-998c-9fba8be392df.png">
+<img width="301" alt="Saturday" src="https://user-images.githubusercontent.com/66789469/191223193-8b9735ca-7d9b-4477-a5ae-7fcb967df78b.png">
+<img width="300" alt="Sunday" src="https://user-images.githubusercontent.com/66789469/191223211-9c32f3e1-f01e-4005-a2d3-6db7f9203e9c.png">
 
 
 # Prep for Part 2
@@ -247,3 +256,14 @@ Runze Zhang
 Hongjiao Zhang
 1. Provide greetings every time they wake up
 
+New Features added to the Clock:
+1) Check In Feature
+Using the Upper Button on the MiniPiTFT, the patient can check in to say that they have taken their medicine for the day.
+<img width="309" alt="CheckIn" src="https://user-images.githubusercontent.com/66789469/191221199-d998edcb-ad91-4562-b4f2-9708a6962768.png">
+
+2) Missed Dosage
+Using the Lower Button on the MiniPiTFT, the patient can record the missed dosage in case they realize later in the day or it will be automatically recorded in case a check in is not entered for the day. 
+<img width="300" alt="MissedDose" src="https://user-images.githubusercontent.com/66789469/191221248-d073e50e-a9b2-4651-b472-6a2373489d82.png">
+
+##Final Prototype of my Clock Interface for Older Adults with Cognitive Deficits
+https://drive.google.com/file/d/1tsqrn4m-WuZadbGh3vPAdp0hmHteRRy1/view?usp=sharing
