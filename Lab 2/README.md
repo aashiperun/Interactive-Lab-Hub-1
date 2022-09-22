@@ -270,3 +270,10 @@ Using the Lower Button on the MiniPiTFT, the patient can record the missed dosag
 ## Final Prototype of my Clock Interface for Older Adults with Cognitive Deficits
 
 https://drive.google.com/file/d/1tsqrn4m-WuZadbGh3vPAdp0hmHteRRy1/view?usp=sharing
+
+Associated medicine dispenser with the above clock interface prototype:
+
+<img width="446" alt="Screen Shot 2022-09-22 at 12 38 29 PM" src="https://user-images.githubusercontent.com/66789469/191803921-84cdb2bb-6511-41ed-9a9c-8f39abbcd18f.png">
+
+
+
