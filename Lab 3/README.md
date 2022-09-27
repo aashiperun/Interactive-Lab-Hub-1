@@ -58,6 +58,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+https://drive.google.com/file/d/1trO9hNQ5i1o3hVTSqQbt29kTPout0ETd/view?usp=sharing
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
@@ -81,6 +82,10 @@ Then try `./vosk_demo_mic.sh`
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+My Shell file asks "How many siblings do you have?"
+
+https://drive.google.com/file/d/1eQ7G0ayjXiPKJi3FttSlLUDQSo6ms0yV/view?usp=sharing
+
 ### Serving Pages
 
 In Lab 1, we served a webpage with flask. In this lab, you may find it useful to serve a webpage for the controller on a remote device. Here is a simple example of a webserver.
@@ -101,19 +106,28 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 ### Storyboard
 
-Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
-
 \*\***Post your storyboard and diagram here.**\*\*
+* Product: Wayfinding Walking Stick
+* Purpose of Product: Older Adults with cognitive deficits like dementia often feel disoriented when they go out for a walk on their own. Using this device they dont need to use an additional device like a phone for navigation while holding their walking stick. This device would provide voice based guidance and is more interactive than a normal phone.
+
+![Storyboarding (4)](https://user-images.githubusercontent.com/66789469/192393592-111ec376-79e4-407c-a62d-c5f762599ec2.jpg)
+
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+![Storyboarding (5)](https://user-images.githubusercontent.com/66789469/192394718-607d9c29-bf31-4395-b37b-2eba32746010.jpg)
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+https://drive.google.com/file/d/1f4D7GZN7cd7ydhbeJDTHognUjlJj7FSQ/view?usp=sharing
+
+* When acted out, I felt that the walking stick should provide more prompts to the user.
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
