@@ -59,6 +59,7 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 (This shell file should be saved to your own repo for this lab.)
 
 https://drive.google.com/file/d/1trO9hNQ5i1o3hVTSqQbt29kTPout0ETd/view?usp=sharing
+
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
