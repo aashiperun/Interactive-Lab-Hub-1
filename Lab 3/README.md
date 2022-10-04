@@ -194,11 +194,12 @@ Answer the following:
   * Didn't work well: It was difficult to place the controller on the makeshift walking stick with all the sensors connected because I had small wires that didn't reach to the end of the walking stick. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
-
+  * Key Takeaways from a WoZ interaction for designing a more autonomous version of the system:
+      * The WoZ helped me realise that older people with cognitive deficits have frequent discontinuities in speech something I didn't realise while designing the system.
+      * I would create more alternative responses / predict responses to discontinuous speech while designing a more autonomous version of the system.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
+  * Capture data from Motion sensors/ GPS trackers to see if the older adult stops moving/following navigation.
+  * Analyzing the sensor dataset could indicate either that the older adult has lost the walking stick/ the older adult doesn't know where to go next.
+  * Using this information, we can ensure safety of older adults and detect an emergency situation faster.
 
