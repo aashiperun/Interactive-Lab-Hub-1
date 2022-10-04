@@ -187,11 +187,11 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
   * Worked Well: The system detected the obstacles using proximity sensor and promptly provided voice alerts using the pre-programmed speech2text.
-  * Didnt Work Well: Inaccurate predictions by the model
+  * Didn't Work Well: Inaccurate predictions by the model
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+  * Worked Well: The controller detected button presses and reacted quickly.
+  * Didn't work well: It was difficult to place the controller on the makeshift walking stick with all the sensors connected because I had small wires that didn't reach to the end of the walking stick. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
