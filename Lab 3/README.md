@@ -141,9 +141,28 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
+* Feedback from Part 1:
+  * Anjali Vyas:
+      * I really love this idea because it's like a smart assistant but geared towards a social good activity that I've never seen smart assistants being         used for before! Great job!
+      * Some things I was wondering:
+      * How would the device respond if an older adult says something incoherent (due to memory lapses) or something that the device is not programmed to         know the answer to. For example: why am I here, where's my daughter? - maybe the device can store emergency contact information of loved ones and         alert them in such cases.
+      * I'm curious to know where exactly the speaker / microphone / device would be placed on the walking stick. In case the older adult doesn't use a           walking stick but could still benefit from the device how would you design it to make it available to them?
+      
+  * Neha Manjunath (TA)
+      * Really cool idea! However, we would love to see your exploration of the idea and the different barriers that might arise wrt to human                     communication and list out workflows where the dialogue would fall apart and how you could accommodate those scenarios.
+      
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+   * From the feedback received, I understand that older people with cognitive deficits tend to have incoherent speech due to memory lapses. This is            factor I hadn't previously accounted for in my design.
+   * My device could be improved to anticipate sentences older adults might say and reinforce/remind older adults why they are going to a specific place.
+   * Where would the microphone be placed on the walking stick? 
+   
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+   * Use a Pulse heart rate sensor to detect when the older adult is starting to feel anxious. Provide calming music/ voice recordings from family to calm      the older adult and reassure them that they are not lost.
+   * Use a proximity sensor the detect obstacles or pavements to prevent older adults from falling.
+   * Use Buttons to facilitate emergency calls.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+  
 
 ## Prototype your system
 
