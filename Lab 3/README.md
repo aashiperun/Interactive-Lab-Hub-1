@@ -162,7 +162,9 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
    * Use Buttons to facilitate emergency calls.
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
-  
+   * Prototype of the walking stick based on the above reflections:
+     ![image](https://user-images.githubusercontent.com/66789469/193737302-a2788396-2fe1-475c-b054-0d99d6acc2fa.png)
+
 
 ## Prototype your system
 
