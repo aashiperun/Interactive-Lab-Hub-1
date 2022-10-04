@@ -186,7 +186,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+  * Worked Well: The system detected the obstacles using proximity sensor and promptly provided voice alerts using the pre-programmed speech2text.
+  * Didnt Work Well: Inaccurate predictions by the model
 
 ### What worked well about the controller and what didn't?
 
