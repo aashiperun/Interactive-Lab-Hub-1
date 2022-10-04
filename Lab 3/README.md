@@ -164,6 +164,8 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 3. Make a new storyboard, diagram and/or script based on these reflections.
    * Prototype of the walking stick based on the above reflections:
      ![image](https://user-images.githubusercontent.com/66789469/193737302-a2788396-2fe1-475c-b054-0d99d6acc2fa.png)
+   * Dialogue: 
+      ![Storyboarding (9)](https://user-images.githubusercontent.com/66789469/193877602-e8a121c3-1cf2-45f9-87cd-3a37eb4cdd83.jpg)
 
 
 ## Prototype your system
