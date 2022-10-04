@@ -177,6 +177,9 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+![Storyboarding (7)](https://user-images.githubusercontent.com/66789469/193825943-2b595672-5ea2-4ada-873e-ea8df85673a3.jpg)
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
