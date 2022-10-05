@@ -196,7 +196,7 @@ Answer the following:
 
 ### What worked well about the system and what didn't?
   * Worked Well: The system detected the obstacles using proximity sensor and promptly provided voice alerts using the pre-programmed speech2text.
-  * Didn't Work Well: Inaccurate predictions by the model
+  * Didn't Work Well: Inaccurate predictions by the model, Too much lag between speech and its interpretation.
 
 ### What worked well about the controller and what didn't?
   * Worked Well: The controller detected button presses and reacted quickly.
