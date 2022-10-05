@@ -182,9 +182,11 @@ The system should:
 ![Storyboarding (7)](https://user-images.githubusercontent.com/66789469/193825943-2b595672-5ea2-4ada-873e-ea8df85673a3.jpg)
 
 * Interfacing a Proximity Sensor with the walking stick to detect obstacles:
+
 https://drive.google.com/file/d/135v8FFu-6XVIqelYvKTbWnUzioGjtzop/view?usp=sharing
 
-* Simulating conversation between older adult and the walking stick
+* Simulating conversation between older adult and the walking stick:
+
 https://drive.google.com/file/d/1VSSPQ0KYCos6bRc1RuB6uXsiI-tE4JT_/view?usp=sharing
 
 ## Test the system
