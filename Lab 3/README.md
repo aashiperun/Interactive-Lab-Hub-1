@@ -190,7 +190,9 @@ https://drive.google.com/file/d/135v8FFu-6XVIqelYvKTbWnUzioGjtzop/view?usp=shari
 https://drive.google.com/file/d/1VSSPQ0KYCos6bRc1RuB6uXsiI-tE4JT_/view?usp=sharing
 
 ## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+Video of a user testing the walking stick:
+
+https://drive.google.com/file/d/1kFp4bB_DIMeOeVj8chDxzM4dSBzB4crI/view?usp=sharing
 
 Answer the following:
 
