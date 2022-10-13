@@ -174,7 +174,25 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
+### Application & Sensor Chosen:
+* Application: Artist palette for color blind painters
+* Sensor chosen:  Adafruit APDS-9960 [Light/Proximity/Gesture sensor][Currently using as a light/color sensor]
+* Story behind choosing this application: While browsing through Youtube long ago, I came across a stand-up comedian, who was talking about being a color blind person with an Art Degree and his love for painting. This intrigued me because it seemed like such a paradox. 
+* How do Color blind people currently paint? 
+ * Colorblind artists learn to know color without being able to reliably see color. 
+ * They use color theory and general knowledge to make a calculated guess at the real color they are attempting to identify. 
+ * Most artists will label every color to avoid making mistakes and ask for help when a problem occurs.
+* Are there products in the industry to help color blind people identify color using technology?
+ * Yes, there is Enchroma's color blind glasses which are priced at $229. 
+ * There are apps availble of the AppStore like Color Blind Pal which help detect colors.
+* How is my product [Artist's Palette for Color Blind People] different?
+ * My product caters to color blind painters.
+ * It is cost effective compared to expensive glasses
+ * The color sensor is in-built to the color palette which is a new device and doesn't exist now.
+
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
