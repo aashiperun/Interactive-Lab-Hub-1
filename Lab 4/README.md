@@ -179,16 +179,16 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 * Sensor chosen:  Adafruit APDS-9960 [Light/Proximity/Gesture sensor][Currently using as a light/color sensor]
 * Story behind choosing this application: While browsing through Youtube long ago, I came across a stand-up comedian, who was talking about being a color blind person with an Art Degree and his love for painting. This intrigued me because it seemed like such a paradox. 
 * How do Color blind people currently paint? 
- * Colorblind artists learn to know color without being able to reliably see color. 
- * They use color theory and general knowledge to make a calculated guess at the real color they are attempting to identify. 
- * Most artists will label every color to avoid making mistakes and ask for help when a problem occurs.
+  * Colorblind artists learn to know color without being able to reliably see color. 
+  * They use color theory and general knowledge to make a calculated guess at the real color they are attempting to identify. 
+  * Most artists will label every color to avoid making mistakes and ask for help when a problem occurs.
 * Are there products in the industry to help color blind people identify color using technology?
- * Yes, there is Enchroma's color blind glasses which are priced at $229. 
- * There are apps availble of the AppStore like Color Blind Pal which help detect colors.
+  * Yes, there is Enchroma's color blind glasses which are priced at $229. 
+  * There are apps availble of the AppStore like Color Blind Pal which help detect colors.
 * How is my product [Artist's Palette for Color Blind People] different?
- * My product caters to color blind painters.
- * It is cost effective compared to expensive glasses
- * The color sensor is in-built to the color palette which is a new device and doesn't exist now.
+  * My product caters to color blind painters.
+  * It is cost effective compared to expensive glasses
+  * The color sensor is in-built to the color palette which is a new device and doesn't exist now.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
