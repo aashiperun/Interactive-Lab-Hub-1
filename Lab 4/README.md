@@ -192,12 +192,21 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+* Different ways to use the color sensor on the artist's palette:
+ * Designs:
+ 
+ <img width="1121" alt="Screen Shot 2022-10-17 at 11 49 45 AM" src="https://user-images.githubusercontent.com/66789469/196223979-1c93d077-0258-4eb8-a1dd-66e456997b22.png">
+
+
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+![Storyboarding (21)](https://user-images.githubusercontent.com/66789469/196224773-2a8a8fea-ab3e-4efa-b653-eba0193eee6e.jpg)
 
+* I am choosing this design because it requires only one color sensor which can be movable.
+* I think it will provide more accurate results as compared to the other designs.
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
