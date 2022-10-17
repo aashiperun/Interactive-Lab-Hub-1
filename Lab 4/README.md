@@ -248,9 +248,14 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+![Storyboarding (16)](https://user-images.githubusercontent.com/66789469/196228602-2329ed06-74aa-4c0b-a3c6-491a3d7581a4.jpg)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+![Storyboarding (24)](https://user-images.githubusercontent.com/66789469/196229093-44f86cd8-6f70-4d6e-a832-bd37eb21e69c.jpg)
+
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
