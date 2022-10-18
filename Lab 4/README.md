@@ -174,33 +174,36 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-### Application & Sensor Chosen:
-* Application: Artist palette for color blind painters
-* Sensor chosen:  Adafruit APDS-9960 [Light/Proximity/Gesture sensor][Currently using as a light/color sensor]
-* Story behind choosing this application: While browsing through Youtube long ago, I came across a stand-up comedian, who was talking about being a color blind person with an Art Degree and his love for painting. This intrigued me because it seemed like such a paradox. 
-* How do Color blind people currently paint? 
-  * Colorblind artists learn to know color without being able to reliably see color. 
-  * They use color theory and general knowledge to make a calculated guess at the real color they are attempting to identify. 
-  * Most artists will label every color to avoid making mistakes and ask for help when a problem occurs.
-* Are there products in the industry to help color blind people identify color using technology?
-  * Yes, there is Enchroma's color blind glasses which are priced at $229. 
-  * There are apps availble of the AppStore like Color Blind Pal which help detect colors.
-* How is my product [Artist's Palette for Color Blind People] different?
-  * My product caters to color blind painters.
-  * It is cost effective compared to expensive glasses
-  * The color sensor is in-built to the color palette which is a new device and doesn't exist now.
-
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+
+#### Application & Sensor Chosen:
+ * Application: Artist palette for color blind painters
+ * Sensor chosen:  Adafruit APDS-9960 [Light/Proximity/Gesture sensor][Currently using as a light/color sensor]
+ * Story behind choosing this application: While browsing through Youtube long ago, I came across a stand-up comedian, who was talking about being a color blind person with an Art Degree and his love for painting. This intrigued me because it seemed like such a paradox. 
+ * How do Color blind people currently paint? 
+   * Colorblind artists learn to know color without being able to reliably see color. 
+   * They use color theory and general knowledge to make a calculated guess at the real color they are attempting to identify. 
+   * Most artists will label every color to avoid making mistakes and ask for help when a problem occurs.
+ * Are there products in the industry to help color blind people identify color using technology?
+   * Yes, there is Enchroma's color blind glasses which are priced at $229. 
+   * There are apps availble of the AppStore like Color Blind Pal which help detect colors.
+ * How is my product [Artist's Palette for Color Blind People] different?
+   * My product caters to color blind painters.
+   * It is cost effective compared to expensive glasses
+   * The color sensor is in-built to the color palette which is a new device and doesn't exist now.
 
 * Different ways to use the color sensor on the artist's palette:
  * Designs:
  
  <img width="1121" alt="Screen Shot 2022-10-17 at 11 49 45 AM" src="https://user-images.githubusercontent.com/66789469/196223979-1c93d077-0258-4eb8-a1dd-66e456997b22.png">
 
-
-
-
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+* Some questions these sketches raise:
+  * Will adjacent colors affect the accuracy of the color detector?
+  * How close does the color detector need to be to the palette?
+* I need to physically prototype a color palette with adjacent colors that are different and see how accurately the color sensor determines the color.
+* I need to try different lengths of the dangling color sensor to see which length gives me the most accurate results.
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 ![Storyboarding (21)](https://user-images.githubusercontent.com/66789469/196224773-2a8a8fea-ab3e-4efa-b653-eba0193eee6e.jpg)
@@ -251,6 +254,10 @@ Think about how you want to present the information about what your sensor is se
 ![Storyboarding (16)](https://user-images.githubusercontent.com/66789469/196228602-2329ed06-74aa-4c0b-a3c6-491a3d7581a4.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+* Some questions these sketches raise:
+  * Will the dangling sensor obstruct the view of the display?
+  * Is the display in the painter's line of vision of does the painter put in effort to read what's on the display?
+* I need to physically prototype the display in different positions to see which position is the most comfortable to the painter.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
@@ -259,10 +266,23 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+I chose the above design because it makes use of only one sensor that can be moved to different parts of the palette. The display position in this design is in the painter's line of vision. This means that the painter doesnt have to look up/down/sideways to read which color is being displayed. 
+
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+Cardboard Prototype:
+
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/66789469/196326271-1e399920-0471-44cb-9097-6ce57920dcd9.png">
+
+* Top View of the device: A hole is provided to move the color sensor horizonatally
+
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/66789469/196326437-a68c52b1-2ce2-4537-bfa1-5efc0a5713b9.png">
+
+* Video of the Cardboard Prototype
+ 
+ https://drive.google.com/file/d/1fs1WRhYQfD9AJlsxEeAiba91QOPlDMI0/view?usp=sharing
 
 LAB PART 2
 
@@ -300,10 +320,48 @@ You can then call whichever control you like rather than setting a fixed value f
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
 ### Part F
+
+#### Feedback from Part 1:
+
+* Jackson Riemerschmid: One thing would be to move the display above the connecting point of the sensor so that it does not obstruct the view of the display. I like how the color sensor moves though so you don’t have to mess with getting the color palette in the exact right spot
+
+* Joseph Iovine: I like it ! The one thing I have a question about is colors that are not on the palette. For example if they are looking for a specific color that is not currently on the palette how would they go about obtaining it? Would they just keep adding colors onto the palette until they've guessed correctly.
+
 ### Record
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+#### "Looks like": 
+  * Taking the Feedback from Jackson into account, I changed the design of my display. In the old design the display was being blocked by the dangling sensor. This is why I move the display above the device.
+  
+  <img width="801" alt="image" src="https://user-images.githubusercontent.com/66789469/196327665-0e7f2092-8ddb-40cd-aa82-dc56449df298.png">
+
+#### "Works like": 
+  * The working of the new design is shown in the video below. The color sensor detects the color on the palette and sends it to the display through which the user (color blind person) can determine which color is on the palette.
+ 
+  https://drive.google.com/file/d/1tEVtVC3V9ce3YNUDwC6v3hCvwXqnMpsq/view?usp=sharing
+  
+#### "Acts like": A user (color blind person) tests my Artist's Palette for Color Blind People
+
+  https://drive.google.com/file/d/1fshhpyUlsdR3Cn_zcgsfQsK8VuqSJ1ew/view?usp=sharing
+  
+#### Observations and Inferences from my Device:
+   * The color sensor had to be placed really close to the color for it to accurately determine which color it was.
+   * When the user was testing the device, the blue color was being detected as green which was incorrect. The sensor had a green light which was negatively impacting the blue color detection as shown in the video below: 
+   
+      https://drive.google.com/file/d/1F7BnsLFU-qSw_RqhBfOhvl0GvjQItv6R/view?usp=sharing
+   
+   * Addressing Joseph's feedback: 
+      * Joseph Iovine: I like it ! The one thing I have a question about is colors that are not on the palette. For example if they are looking for a specific color that is not currently on the palette how would they go about obtaining it? Would they just keep adding colors onto the palette until they've guessed correctly.
+      * The proposed method to detect colors from tubes before the artist puts it on the palette is to hold the color tube under the sensor as shown in the below diagram: 
+      
+      <img width="370" alt="image" src="https://user-images.githubusercontent.com/66789469/196329581-27bd0d62-309f-4a03-b60e-9ca490b0e586.png">
+
+  * Future Work:
+      * While using the device, the user found it difficult to manually move the sensor everytime. 
+      * To automate the color sensor movement, I created a new design. 
+      * In this new design, I use a capacitive sensor which is connected to each section of the palette.
+      * When the user touches a button on the capacitive sensor, the color sensor automatically moves to that section of the palette.
+      
+      ![Storyboarding (25)](https://user-images.githubusercontent.com/66789469/196330524-dadc3fd6-69bb-416e-a1fd-0abb49671611.jpg)
+
 
