@@ -102,6 +102,23 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+* Contour Detection
+
+<img width="1014" alt="image" src="https://user-images.githubusercontent.com/66789469/196956474-0ea97693-20ec-47bd-a14a-2b50edb19e3f.png">
+
+* Face Detection
+
+<img width="1012" alt="image" src="https://user-images.githubusercontent.com/66789469/196957095-f8384333-5686-4ced-9aba-71f1f228124f.png">
+
+* Flow Detection
+
+<img width="1015" alt="image" src="https://user-images.githubusercontent.com/66789469/196957656-be9a3b1c-fc42-425a-8771-849f7c99f376.png">
+
+* Object Detection
+
+<img width="1016" alt="image" src="https://user-images.githubusercontent.com/66789469/196955758-25390b72-5112-4cad-9b8b-72ea241f9896.png">
+
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
