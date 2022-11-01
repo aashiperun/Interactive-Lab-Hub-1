@@ -254,10 +254,13 @@ This might take a while to get fully installed. After installation, connect your
 * Try out different interaction outputs and inputs.
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
-* Device: Anxiety Detector
+* Device: Anxiety Detector 
     * Model: Flow Detection
     * Description of the Device: I have created a device to determine if a person is being anxious based on the restlesness of their leg. I want to detect the if the user is bouncing their leg using the flow detection model. 
-    * 
+    * Contextual Interaction Design Tool for my Anxiety Detector.
+    
+    <img width="1132" alt="image" src="https://user-images.githubusercontent.com/66789469/199143489-5ed475fd-e29c-453c-a2bb-fbf72acab923.png">
+
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
@@ -266,17 +269,44 @@ This might take a while to get fully installed. After installation, connect your
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it do what it is supposed to do?
+2. When does it fail?
+3. When it fails, why does it fail?
+4. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+2. How bad would they be impacted by a miss classification?
+3. How could change your interactive system to address this?
+4. Are there optimizations you can try to do on your sense-making algorithm.
 
+**\*\*\*ANXIETY DETECTOR TESTING\*\*\***
+1. When does it do what it is supposed to do?
+    * The anxiety detector device makes a noise to indicate to the user that they are being anxious when the user starts bouncing their leg.
+
+2. When does it fail?
+    * When there is movement in the background apart from the user's leg, the device creates a false alarm and fails.
+
+3. When it fails why does it fail?
+    * The camera detects a lot of points on the environment apart from the user's leg. 
+    * So when something in the background moves it creates a false alarm to the user, telling them that they are anxious when they are actually not.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+    * When the user gets up from their chair to get something, it will detect the user's leg movement and think that the user is bouncing their leg, this scenario will also cause problems.
+    
+5. Are they aware of the uncertainties in the system?
+    * The user may not be aware of the uncertainties in the system with regards to background movement as this is not in their control.
+    
+6. How bad would they be impacted by a miss classification?
+    * Miss classification by our device would to create a false alert to the user telling them they have anxiety when they actually don't. This is a serious problem and will negatively impact a person who is already prone to being anxious. A false alert may lead them to becoming anxious, even if they previously weren't.
+    
+7. How could you change your interactive system to address this?
+    * I could alter the model to detect only points on the user's knee and track only this point.
+    * I could use a proximity sensor under the table to detect if the distance from the table to a person's leg is changing if they are bouncing their leg. This sensor data combined with the optical flow model could make more accurate predictions.
+    
+8. Are there optimizations you can try to do on your sense-making algorithm.
+    * I could optimize the sense making algorithm to only detect points on the environment which are of interest to me and not detect all available points.
+    
 ### Part D
 ### Characterize your own Observant system
 
@@ -290,10 +320,39 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
+**\*\*\*Characterizing X: ANXIETY DETECTOR\*\*\***
+*  What can you use the anxiety detector for? 
+    * To detect when a person starts getting anxious
+    * It can also be extended to other applications, such as detecting if a child has ADHD, etc.
+
+* What is a good environment for the anxiety detector?
+    * An good environment will be one with no background movement.
+
+* What is a bad environment for the anxiety detector?
+    * An environment with a lot of movement in the background.
+
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+https://drive.google.com/file/d/10ighPRZ-8H7DrQS4ytDmgPQ4kGHPdCcc/view?usp=sharing
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+* Based on feedback and problems observed in part 1, this is the final design of my interactive system:
+    * I have added a proximity sensor under the study table to detect the distance between my leg and the table.
+    * This sensor distance is constantly monitored.
+    * If the distance changes it means the leg if bouncing.
+    * However if the flow detection model detects movement but the proximity sensor doesn't observe a change in the distance, then there is no alert provided by the device.
+    * Only if the proximity sensor's distance changes AND the flow detection model detects movement, then an alert to the user is provided through the speaker which says: "You are starting to feel anxious, take a break"
+    * This way my model reduces the number of false alerts provided by my anxiety detector to the user.
+
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+* The following video shows two cases:
+  * CASE 1. The user's leg is stationary, but there is movement in the background.
+  * CASE 2. The user's leg is bouncing.
+
+* Video
+
+
