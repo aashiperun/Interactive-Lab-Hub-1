@@ -106,25 +106,25 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 <img width="1014" alt="image" src="https://user-images.githubusercontent.com/66789469/196956474-0ea97693-20ec-47bd-a14a-2b50edb19e3f.png">
 
-While trying contour detection, I observed that it detects shapes very clearly. I want to create a device which detects different shapes created by the user and associates these shapes with different moods. Based on the detetcted mood it would either play the user's favorite music if they are sad or call their long-distance loved one if they are missing them, etc.
+Design Idea: While trying contour detection, I observed that it detects shapes very clearly. I want to create a device which detects different shapes created by the user and associates these shapes with different moods. Based on the detetcted mood it would either play the user's favorite music if they are sad or call their long-distance loved one if they are missing them, etc.
 
 * Face Detection
 
 <img width="1012" alt="image" src="https://user-images.githubusercontent.com/66789469/196957095-f8384333-5686-4ced-9aba-71f1f228124f.png">
 
-For a smart pill dispenser meant specifically for older adults with cognitive deficits, we need to be careful with who we dispense the medicine to. One of the checks can be to dispense the medicine only when one face is detected in front of the medicine dispenser. 
+Design Idea: For a smart pill dispenser meant specifically for older adults with cognitive deficits, we need to be careful with who we dispense the medicine to. One of the checks can be to dispense the medicine only when one face is detected in front of the medicine dispenser. 
 
 * Flow Detection
 
 <img width="1015" alt="image" src="https://user-images.githubusercontent.com/66789469/196957656-be9a3b1c-fc42-425a-8771-849f7c99f376.png">
 
-I want to create an Anxiety/ADHD detector. One of the most common signs of anxiety/ adhd is restlesness especially in their leg, commonly known as leg bouncing. To detect this, I will monitor a person's leg and detect the movement using the flow detection model and determine if the person is anxious or not. If the person is anxious, I will play calming sounds through the speaker.
+Design Idea: I want to create an Anxiety/ADHD detector. One of the most common signs of anxiety/ adhd is restlesness especially in their leg, commonly known as leg bouncing. To detect this, I will monitor a person's leg and detect the movement using the flow detection model and determine if the person is anxious or not. If the person is anxious, I will play calming sounds through the speaker.
 
 * Object Detection
 
 <img width="1016" alt="image" src="https://user-images.githubusercontent.com/66789469/196955758-25390b72-5112-4cad-9b8b-72ea241f9896.png">
 
-Before entering an exam hall, I can use the object detector to check if students are carrying any objects that are not allowed into the exam hall.
+Design Idea: Before entering an exam hall, I can use the object detector to check if students are carrying any objects that are not allowed into the exam hall.
 
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
