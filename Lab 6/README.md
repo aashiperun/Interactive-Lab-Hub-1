@@ -95,6 +95,7 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   (circuitpython) pi@raspberrypi:~ Interactive-Lab-Hub/Lab 6 $ python reader.py
   ...
   ```
+<img width="474" alt="image" src="https://user-images.githubusercontent.com/66789469/199730315-e5d3bea3-85d1-4415-85b6-8a1c2cfbd9af.png">
 
 <img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
 
