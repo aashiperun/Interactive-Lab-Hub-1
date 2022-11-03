@@ -83,6 +83,9 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   type new-topic to swich topics
   >> message: testtesttest
   ...
+  
+  <img width="1025" alt="image" src="https://user-images.githubusercontent.com/66789469/199729543-082e3192-6c50-4fc4-90ae-2d4bd0bfaa59.png">
+
   ```
 * Run `reader.py`, and you should see any messages being published to `IDD/` subtopics. Type a message inside MQTT explorer and see if you can receive it with `reader.py`.
 
