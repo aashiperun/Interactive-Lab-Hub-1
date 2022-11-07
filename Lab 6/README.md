@@ -165,11 +165,24 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+* We designed a replica of a Morse Code Translator using the capacitive touch sensor. 
+* Morse code was one of the early communication methods which was used to send messages over long distances. 
+* Morse Code has also been used as an alternative form of communication for people with disabilities or whom have their abilities to communicate imparied by stroke, heart attack, or paralysis. There have been several cases where individuals have been able to use their eyelids to communicate in Morse Code by using a series of long and quick blinks to represent that dots and dashes.
+* Our design makes use of 5 twizzlers on the capacitive touch sensor to transmit a message in Morse code from the sender's topic (IDD/Aashika).
+* The Receiver(Anjali) subscribes to the sender's topic (IDD/Aashika) and waits till the entire message is received.
+* Once the message is received, the receiver decrypts the message and plays it using the speaker.
+* In our design we use two of the twizzlers (twizzler #7 and #10) to create letters using dots and hyphens. The third twizzler (twizzler #5) is used as an asterisk to differentiate between letters. The fourth twizzler (twizzler #2) is used as a forward slash to differentiate between words. The fifth twizzler (twizzler #0) is used as an exclamation mark to indicate "End of Message". 
+* In the modern day context, this morse code translator can be used by people with motor control disabilities.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+<img width="1146" alt="Screenshot 2022-11-07 at 5 00 33 PM" src="https://user-images.githubusercontent.com/66789469/200440752-20c8e00a-871d-467d-9338-4b02c3270d49.png">
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+https://drive.google.com/file/d/1ESvAuAMCE_ug-s1ZctOr9cSprVH_xaHu/view?usp=sharing
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
