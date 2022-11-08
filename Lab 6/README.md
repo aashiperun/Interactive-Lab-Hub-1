@@ -100,6 +100,12 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+* Idea #1: Search and Rescue Robot Communication : When we are dealing with a swarm (or group) of robots in a search and rescue operation, each of these robots can use this messaging system to update the location of people they find in real time.
+* Idea #2: Online Digital Painting Class: We can use the color sensor along with the pi to relay information through this messaging system about the color the teacher is using to all the students in a digital painting class.
+* Idea #3: Enhance communication between people with disabilities:  By interfacing the pi with the gesture sensor we can enable easy communication through this messaging system between people with disabilities.
+* Idea #4: Safety of Older Adults: To track when older adults are leaving their house, we can use a proximity sensor to detect when they are close to the door and relay this information to their family members in a remote location using this messaging system to ensure the safety of older adults with cognitive deficits.
+* Idea #5: Musical Instrument: Use different pads on the Capacitive touch sensor to denote a certain pitch and sound. Transmit the information of the sound being produced (eg, pitch, etc) and play this sound on a speaker.
+
 ### Part C
 ### Streaming a Sensor
 
@@ -173,10 +179,10 @@ Find at least one class (more are okay) partner, and design a distributed applic
 * We designed a replica of a Morse Code Translator using the capacitive touch sensor. 
 * Morse code was one of the early communication methods which was used to send messages over long distances. 
 * Morse Code has also been used as an alternative form of communication for people with disabilities or whom have their abilities to communicate imparied by stroke, heart attack, or paralysis. There have been several cases where individuals have been able to use their eyelids to communicate in Morse Code by using a series of long and quick blinks to represent that dots and dashes.
-* Our design makes use of 5 twizzlers on the capacitive touch sensor to transmit a message in Morse code from the sender's topic (IDD/Aashika).
+* Our design makes use of 5 pads on the capacitive touch sensor to transmit a message in Morse code from the sender's topic (IDD/Aashika).
 * The Receiver(Anjali) subscribes to the sender's topic (IDD/Aashika) and waits till the entire message is received.
 * Once the message is received, the receiver decrypts the message and plays it using the speaker.
-* In our design we use two of the twizzlers (twizzler #7 and #10) to create letters using dots and hyphens. The third twizzler (twizzler #5) is used as an asterisk to differentiate between letters. The fourth twizzler (twizzler #2) is used as a forward slash to differentiate between words. The fifth twizzler (twizzler #0) is used as an exclamation mark to indicate "End of Message". 
+* In our design we use two of the pads (pad #7 and #10) to create letters using dots and hyphens. The third pad (pad #5) is used as an asterisk to differentiate between letters. The fourth pad (pad #2) is used as a forward slash to differentiate between words. The fifth pad (pad #0) is used as an exclamation mark to indicate "End of Message". 
 * In the modern day context, this morse code translator can be used by people with motor control disabilities.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
@@ -187,8 +193,8 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 <img width="260" alt="image" src="https://user-images.githubusercontent.com/66789469/200445669-727b0352-8525-46df-8bb7-df5a14611c49.png">
 
-* The user interface of the device is built on the capacitive touch sensor with conducting tape attached to each twizzler. 
-* The end of each twizzler has the corresponding symbol used for the morse code.
+* The user interface of the device is built on the capacitive touch sensor with conducting tape attached to each pad. 
+* The end of each conducting tape has the corresponding symbol used for the morse code.
 * The center of the capactive touch sensor has "morse code" written on it to indicate that this device can be used to send a message using morse code.
 * The receiver looks at the subscribed topic(IDD/Aashika) on the MQTT Interface to see the message in Morse code being transmitted
 
