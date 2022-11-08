@@ -180,6 +180,13 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+<img width="260" alt="image" src="https://user-images.githubusercontent.com/66789469/200445669-727b0352-8525-46df-8bb7-df5a14611c49.png">
+
+* The user interface of the device is built on the capacitive touch sensor with conducting tape attached to each twizzler. 
+* The end of each twizzler has the corresponding symbol used for the morse code.
+* The center of the capactive touch sensor has "morse code" written on it to indicate that this device can be used to send a message using morse code.
+* The receiver looks at the subscribed topic(IDD/Aashika) on the MQTT Interface to see the message in Morse code being transmitted
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
 https://drive.google.com/file/d/1ESvAuAMCE_ug-s1ZctOr9cSprVH_xaHu/view?usp=sharing
