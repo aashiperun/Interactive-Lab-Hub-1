@@ -1,6 +1,6 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
+**Collaborated with Anjali Vyas**
 
 ## Prep
 
