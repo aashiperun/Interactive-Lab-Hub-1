@@ -97,8 +97,7 @@ Once connected, you should be able to see all the messages under the IDD topic. 
   ```
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/66789469/199730315-e5d3bea3-85d1-4415-85b6-8a1c2cfbd9af.png">
 
-<img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
-
+<img width="253" alt="image" src="https://user-images.githubusercontent.com/66789469/200447948-a0459bb1-1432-4a06-92bd-5e71bce3d1b6.png">
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
@@ -123,8 +122,9 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
-**\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+* I connected the capacitive touch sensor to my raspberry pi and touched different twizzlers on the sensor
 
+<img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
 
 ### Part D
 ### The One True ColorNet
