@@ -121,9 +121,11 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
-* I connected the capacitive touch sensor to my raspberry pi and touched different twizzlers on the sensor
+* I connected the capacitive touch sensor to my raspberry pi and touched twizzlers 6 and 10 on the sensor
+* 
+<img width="207" alt="image" src="https://user-images.githubusercontent.com/66789469/200449128-cf1e188f-5923-44fe-ad1f-675ec236d8c8.png">
 
-<img width="890" alt="Screen Shot 2022-10-30 at 10 47 52 AM" src="https://user-images.githubusercontent.com/24699361/198885135-a1d38d17-a78f-4bb2-91c7-17d014c3a0bd.png">
+<img width="222" alt="image" src="https://user-images.githubusercontent.com/66789469/200449161-0a730dc1-b0b0-45b1-9a32-185c59caf06a.png">
 
 ### Part D
 ### The One True ColorNet
@@ -155,6 +157,10 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+
+<img width="586" alt="image" src="https://user-images.githubusercontent.com/66789469/200448938-52dd7a13-cc24-4add-b3a7-ec6a0c4786e1.png">
+
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/66789469/200449063-3d2232da-0c0e-4f4d-83ca-073607cb3cde.png">
 
 
 ### Part E
