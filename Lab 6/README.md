@@ -128,7 +128,12 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
 * I connected the capacitive touch sensor to my raspberry pi and touched twizzlers 6 and 10 on the sensor
-* 
+* Setup:
+
+<img width="1019" alt="image" src="https://user-images.githubusercontent.com/66789469/200454219-426b5434-9ea1-49b5-ad95-4d1fe8c194e9.png">
+
+* MQTT Explorer: 
+
 <img width="207" alt="image" src="https://user-images.githubusercontent.com/66789469/200449128-cf1e188f-5923-44fe-ad1f-675ec236d8c8.png">
 
 <img width="222" alt="image" src="https://user-images.githubusercontent.com/66789469/200449161-0a730dc1-b0b0-45b1-9a32-185c59caf06a.png">
