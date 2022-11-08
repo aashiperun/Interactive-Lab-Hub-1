@@ -190,6 +190,8 @@ Find at least one class (more are okay) partner, and design a distributed applic
 * In our design we use two of the pads (pad #7 and #10) to create letters using dots and hyphens. The third pad (pad #5) is used as an asterisk to differentiate between letters. The fourth pad (pad #2) is used as a forward slash to differentiate between words. The fifth pad (pad #0) is used as an exclamation mark to indicate "End of Message". 
 * In the modern day context, this morse code translator can be used by people with motor control disabilities.
 
+<img width="609" alt="image" src="https://user-images.githubusercontent.com/66789469/200665032-8c07c4ae-0297-4811-94fa-7534d8842cd9.png">
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 <img width="1146" alt="Screenshot 2022-11-07 at 5 00 33 PM" src="https://user-images.githubusercontent.com/66789469/200440752-20c8e00a-871d-467d-9338-4b02c3270d49.png">
@@ -202,6 +204,9 @@ Find at least one class (more are okay) partner, and design a distributed applic
 * The end of each conducting tape has the corresponding symbol used for the morse code.
 * The center of the capactive touch sensor has "morse code" written on it to indicate that this device can be used to send a message using morse code.
 * The receiver looks at the subscribed topic(IDD/Aashika) on the MQTT Interface to see the message in Morse code being transmitted
+
+* Code for morse code sender: https://github.com/aashiperun/Interactive-Lab-Hub-1/blob/Fall2022/Lab%206/sender.py
+* Code for morse code receiver: https://github.com/aashiperun/Interactive-Lab-Hub-1/blob/Fall2022/Lab%206/morse_code_recvr.py
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
