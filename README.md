@@ -13,5 +13,5 @@ for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Design
 
 [Lab 6. Little Interactions Everywhere](Lab%206/)
 
-[Final Project](https://github.com/aashiperun/Interactive-Lab-Hub-1/tree/Fall2022/Final%20Project)
+[Final Project Proposal](https://github.com/aashiperun/Interactive-Lab-Hub-1/blob/Fall2022/Final%20Project/Project%20Proposal/README.md)
 
