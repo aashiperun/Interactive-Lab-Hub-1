@@ -7,7 +7,7 @@
 ### Big Idea: 
 Older adults with cognitive deficits often find it difficult to live independently as they require assistance with different tasks of daily living. To enable independent living we are going to focus on one of the most critical tasks of daily living for older adults which is to take their medications on time to prevent further cognitive decline.
 
-##### Design of our Smart Medicine Dispenser:
+#### Design of our Smart Medicine Dispenser:
 ![Storyboarding (46)](https://user-images.githubusercontent.com/66789469/202047124-0088c577-834b-41fe-b53c-ffe080ba5ae8.jpg)
 
 ##### We are going to build a smart medicine dispenser that has the following functions:
