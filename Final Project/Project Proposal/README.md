@@ -10,7 +10,7 @@ Older adults with cognitive deficits often find it difficult to live independent
 #### Design of our Smart Medicine Dispenser:
 ![Storyboarding (46)](https://user-images.githubusercontent.com/66789469/202047124-0088c577-834b-41fe-b53c-ffe080ba5ae8.jpg)
 
-##### We are going to build a smart medicine dispenser that has the following functions:
+#### We are going to build a smart medicine dispenser that has the following functions:
 * Step 1: 
   * Place the pill bottle in on the tray on the side of the device. 
   * Once the pill bottle is detected using the Proximity Sensor, the camera takes an image of the label on the pill bottle. 
