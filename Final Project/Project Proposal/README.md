@@ -78,6 +78,9 @@ We will try our best to address all the risks mentioned above. However, in case 
 3) In case we are not able to implement the security feature, we will make sure to mention this in our instructions and say that the device would be better intended for use by trained caregivers instead of older adults directly.
 4) We will try to make our device work with just a few pill shapes and sizes as a simple, initial prototype and will mention this limitation upfront.
 
+### Slide for in-class presentation:
+
+![Smart Medicine Dispenser (1)](https://user-images.githubusercontent.com/66789469/202048768-798aa9b2-fef0-4c92-8261-ccec4bc8d568.png)
 
 
 
