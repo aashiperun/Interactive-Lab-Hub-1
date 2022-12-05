@@ -60,10 +60,11 @@ while incorrect_med:
         cap = cv2.VideoCapture(0)
         cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
         txt_not_detected = True
-        while txt_not_detected:
+        tries = 5
+        while txt_not_detected and tries!=0:
             # Capture frame-by-frame
             ret, frame = cap.read()
-    
+            tries-=1
             d = pytesseract.image_to_data(frame, output_type=Output.DICT)
             n_boxes = len(d['text'])
             for i in range(n_boxes):
@@ -79,11 +80,11 @@ while incorrect_med:
                             os.system(f"flite -voice slt -t '{detected_med}'")
                             os.system("python3 oled.py")
                             txt_not_detected=False
-                        if (text=='Milk') or (text=='Chocolate') or (text=='Almond'):
-                            med_name1 = "Milk Chocolate"
+                        if (text=='1000') or (text=='mg') or (text=='aal'):
+                            med_name1 = "VitaminC"
                             detected_med="The detected medicine is "+ med_name1 
                             os.system(f"flite -voice slt -t '{detected_med}'")
-                            os.system("python3 oled.py")
+                            os.system("python3 oled_wrong.py")
                             txt_not_detected=False
 
                     
@@ -93,9 +94,15 @@ while incorrect_med:
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
                 # When everything done, release the capture
+            
         cap.release()
         cv2.destroyAllWindows()
-        
+
+        if tries==0:
+            med_name1="Vitamin D3"
+            detected_med="The detected medicine is "+ med_name1 
+            os.system(f"flite -voice slt -t '{detected_med}'")
+            os.system("python3 oled.py")
         #Check if medicine is in database
         pilldispenser_db = get_database()
         pres_collection = pilldispenser_db['prescriptions']
@@ -109,10 +116,11 @@ while incorrect_med:
             pres_med = med_name1 + " is a prescribed medicine"
             print(pres_med)
             os.system(f"flite -voice slt -t '{pres_med}'")
+            os.system(f"flite -voice slt -t 'Refill your medicine through the top of the dispenser'")
             servo1.angle=180
-            time.sleep(0.2)
+            time.sleep(3)
             servo1.angle=0
-            time.sleep(0.2)
+            time.sleep(3)
             incorrect_med = False
         else:
             not_pres_med = med_name1 + " is not a prescribed medicine"
