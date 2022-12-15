@@ -13,14 +13,14 @@ Smart Medicine Dispenser [ForMed] -> [ Requires no text input to function + Lets
 Older adults with cognitive deficits often find it difficult to live independently as they require assistance with different tasks of daily living. To enable independent living we are going to focus on one of the most critical tasks of daily living for older adults which is to take their medications on time to prevent further cognitive decline. To ensure this, we built a prototype of a smart medicine dispenser with key differentiators that cater specifically to older adults.
 
 ### Content overview:
-I) Project Proposal
-II) Documentation of the Design Process
-III) How did we build the device?
-IV) Archive of all our code
-V) Videos 
-VI) Reflections
-VII) Group Workload distribution:
-VIII) Acknowledgement:
+* I) Project Proposal
+* II) Documentation of the Design Process
+* III) How did we build the device?
+* IV) Archive of all our code
+* V) Videos 
+* VI) Reflections
+* VII) Group Workload distribution:
+* VIII) Acknowledgement:
 
 ### I) Project Proposal
 
