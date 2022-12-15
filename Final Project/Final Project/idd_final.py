@@ -123,6 +123,7 @@ while incorrect_med:
     time.sleep(0.2)
 
     
-# Reminder + Dispensing Functionality
+# Reminder Functionality
 os.system("python3 send_reminder.py")
-os.system("python3 cap_test.py")
+# Pill Dispensing Functionality
+os.system("python3 dispenser.py")
