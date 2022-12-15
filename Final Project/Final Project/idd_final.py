@@ -60,8 +60,7 @@ while incorrect_med:
         cap = cv2.VideoCapture(0)
         cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
         txt_not_detected = True
-        tries = 5
-        while txt_not_detected and tries!=0:
+        while txt_not_detected:
             # Capture frame-by-frame
             ret, frame = cap.read()
             tries-=1
@@ -98,11 +97,6 @@ while incorrect_med:
         cap.release()
         cv2.destroyAllWindows()
 
-        if tries==0:
-            med_name1="Vitamin D3"
-            detected_med="The detected medicine is "+ med_name1 
-            os.system(f"flite -voice slt -t '{detected_med}'")
-            os.system("python3 oled.py")
         #Check if medicine is in database
         pilldispenser_db = get_database()
         pres_collection = pilldispenser_db['prescriptions']
