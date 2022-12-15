@@ -169,7 +169,7 @@ Here is what our final smart pill dispenser ended up looking like from the front
 ### IV) Archive of all our code
 All the code we used for the smart pill dispenser is in this repository. Below, we explain what the function of each directory and file is:
 
-#### clinician_interface (https://github.com/anjvyas/Interactive-Lab-Hub/tree/Fall2022/Final_Project/clinician_interface)
+#### clinician_interface (https://github.com/aashiperun/Interactive-Lab-Hub-1/tree/Fall2022/Final%20Project/clinician_interface)
 This folder contains the code for the web interface for clinicians built using Flask.
 * templates/doctor.html - contains all the client side code for the form displayed on the page
 * main.py - contains all the server side logic for how to handle the form request. It loads the doctor.html view whenever a user navigates to /form. It also connects to the MongoDB database and saves the prescription to it when the form is submitted.
@@ -185,7 +185,7 @@ Next, you can go to the terminal, navigate to this directory and run the followi
       flask run
 
 
-#### older_adult_interface (https://github.com/anjvyas/Interactive-Lab-Hub/tree/Fall2022/Final_Project/older_adult_interface) 
+#### older_adult_interface (https://github.com/aashiperun/Interactive-Lab-Hub-1/tree/Fall2022/Final%20Project/older_adult_interface) 
 This folder contains all the code run for the device on the raspberry pi.
 
 Main files
