@@ -1,4 +1,4 @@
-# Final Project Documentation 
+# Final Project Documentation : Smart Medicine Dispenser
 
 ### Project:
 
